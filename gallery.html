@@ -1,0 +1,172 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hibban's Gallery</title>
+    <link rel="icon" type="image/x-icon" href="/images/hibbans-logo.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        div {
+  display:inline-block;
+}
+
+/* for moving text*/
+
+  .slide-left {
+    position: relative;
+    animation: moveLeft 15s linear infinite;
+    white-space: nowrap;
+  }
+
+  @keyframes moveLeft {
+    from { left: 100%; } /* Start at the far right */
+    to { left: -100%; }   /* End at the far left */
+  }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        /* The Masonry Container */
+        .gallery-container {
+            columns: 4; /* Number of columns for desktop */
+            column-gap: 15px; /* Space between columns */
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* The Gallery Items */
+        .gallery-item {
+            background-color: #fff;
+            display: inline-block; /* Prevents items from breaking across columns */
+            width: 100%;
+            margin-bottom: 15px; /* Space between rows */
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.02); /* Subtle zoom effect on hover */
+        }
+
+        /* The Images */
+        .gallery-item img {
+            width: 100%;
+            height: auto; /* Maintains original aspect ratio */
+            display: block;
+        }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 900px) {
+            .gallery-container {
+                columns: 3; /* 3 columns for tablets */
+            }
+        }
+
+        @media (max-width: 600px) {
+            .gallery-container {
+                columns: 2; /* 2 columns for mobile phones */
+            }
+        }
+    </style>
+</head>
+<body>
+<body style="background-color: rgb(228, 225, 225);">
+    <header>    <h3 class ="slide-left">"From Hibban Raja's first wobbly steps to running the world at 16 months, welcome to Hibban's Heaven."</h3></header>
+
+    <!-- Navigation Links -->
+    <nav class="nav-menu">
+        <ul>
+       <div><li><h3 class="text-logo">Hibban's Heaven@&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></li></div>
+      <div><li class="li"> <a href="index.html" class="active">Home</a></li>
+       <div><li class="li"> <a href="gallery.html" >Hibban's Gallery </a></li></div>
+      <div><li class="li"><a href="organization.html">Organization</a></li></div>
+      <div><li class="li"><a href="family-health.html">Family & Health</a></li></div>  
+      <div><li class="li"><a href="about.html">About Us</a></li></div>  
+        </ul>
+    </nav>
+    </div>
+    <div class="container">
+        <main>
+    <h1>My Photo Gallery</h1>
+
+    <div class="gallery-container">
+       
+         <div class="gallery-item">
+            <img src="/images/baby-born1.jpeg" alt="Tall Image">
+        </div>
+ <div class="gallery-item">
+            <img src="/images/baby-born2.jpeg" alt="Tall Image">
+        </div>
+ <!-- Item 1 (Tall Image) -->
+        <div class="gallery-item">
+            <img src="/images/hibban-img (10).jpeg" alt="Tall Image">
+        </div>
+        <div class="gallery-item">
+            <img src="/images/second-month.jpeg" alt="Tall Image">
+        </div>
+        
+
+        <!-- Item 2 (Wide Image) -->
+        <div class="gallery-item">
+            <img src="/images/hibban-img (6).jpeg" alt="Wide Image">
+        </div>
+
+        <!-- Item 3 (Square Image) -->
+        <div class="gallery-item">
+            <img src="/images/hibban-img (7).jpeg" alt="Square Image">
+        </div>
+
+        <!-- Item 4 (Very Tall Image) -->
+        <div class="gallery-item">
+            <img src="/images/hibban-img (8).jpeg" alt="Very Tall Image">
+        </div>
+
+        <!-- Item 5 (Short Image) -->
+        <div class="gallery-item">
+            <img src="/images/hibban-img (9).jpeg" alt="Medium Image">
+        </div>
+
+        <!-- Item 6 (Medium Image) -->
+        <div class="gallery-item">
+            <img src="/images/hibban-img (1).jpeg" alt="short Image">
+        </div>
+    </div>
+
+        </main>
+        <aside>
+       <h3 style="background-color: rgb(160, 63, 63)";>Meet Hibban's Raja</h3>
+                <h3 style="background-color: rgb(38, 13, 129)";>Age: 16 months</h3>
+                <h5 style="background-color: rgb(4, 122, 43)";>Current Status: Full-time toddler, part-time wrecking ball.</h5>
+                <h5 style="background-color: rgb(121, 10, 87)";>Passions: Snack time, pressing buttons, and exploring.</h5>
+                <h3 style="background-color: rgb(83, 5, 5)";>Nemesis: The word "no" and staying still.</h3>
+                <h4 style="background-color: rgb(16, 17, 4)"; >Superpower: Melting hearts with a single smile.</li>
+            
+            <a href="gallery.html"><h3 style="background-color: black"; >Visual Gallery</h3></a>
+            <a href="gallery.html"><img src="images/baby-born1.jpeg" width="300"></a>
+             </aside>
+    </div>
+
+    <footer><p>&copy; 2026 Hibban's Heaven@</p></footer>
+
+
+
+</body>
+</html>
