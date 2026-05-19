@@ -12,7 +12,7 @@
 
 .nav-menu a:hover, 
 .nav-menu a.active {
-    background-color: rgba(235, 225, 223, 0.1); /* 10% translucent terracotta */
+    background-color: rgba(235, 225, 223, 0.1); 
     color: #feb47b;
 }
 
@@ -67,11 +67,9 @@ li {
             background: #5590f5; 
             background-image: url("./images/hibban-heaven.jpeg");
             background-repeat: round;
-      background-attachment:fixed;
-      background-size:cover;
-      
-      border-bottom: #5590f5;
-
+            background-attachment:fixed;
+            background-size:cover;
+            border-bottom: #5590f5;
         }
         
         aside { 
@@ -79,10 +77,9 @@ li {
             padding: 20px; 
             background: rgb(228, 225, 225);
             color:rgb(190, 190, 186);
-            font-family:Arial, Helvetica, sans-serif;
-             
-
+            font-family:Arial, Helvetica, sans-serif; 
         }
+       
         footer { 
             background: black; 
             color:rgb(236, 195, 104); 
