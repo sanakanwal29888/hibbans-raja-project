@@ -65,7 +65,7 @@ li {
             flex: 3; 
             padding: 20px; 
             background: #5590f5; 
-            background-image: url("/images/hibban-heaven.jpeg");
+            background-image: url("./images/hibban-heaven.jpeg");
             background-repeat: round;
       background-attachment:fixed;
       background-size:cover;
